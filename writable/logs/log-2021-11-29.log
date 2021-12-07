@@ -1,0 +1,112 @@
+CRITICAL - 2021-11-29 04:48:43 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\project1\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\project1\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\project1\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-29 21:22:31 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\project1\system\CodeIgniter.php(824): App\Controllers\Web->proses()
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 21:23:06 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\project1\system\CodeIgniter.php(824): App\Controllers\Web->proses()
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 21:23:36 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\project1\system\CodeIgniter.php(824): App\Controllers\Web->proses()
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 21:23:39 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\project1\system\CodeIgniter.php(824): App\Controllers\Web->proses()
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 21:24:08 --> Undefined property: App\Controllers\Web::$requset
+#0 C:\xampp\htdocs\project1\app\Controllers\Web.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(824): App\Controllers\Web->proses()
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 21:37:20 --> Cannot redeclare App\Controllers\Web::hitung()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 21:37:30 --> Cannot redeclare App\Controllers\Web::hitung()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 21:37:41 --> Cannot redeclare App\Controllers\Web::proses()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 21:37:53 --> Cannot redeclare App\Controllers\Web::hitung()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 21:39:42 --> Cannot redeclare App\Controllers\Web::proses()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-29 21:43:34 --> syntax error, unexpected 'alas' (T_STRING)
+#0 C:\xampp\htdocs\project1\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('web/segitiga')
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('web/segitiga')
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 21:43:54 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\project1\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('web/segitiga')
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('web/segitiga')
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 21:44:01 --> syntax error, unexpected 'Alas' (T_STRING)
+#0 C:\xampp\htdocs\project1\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('web/segitiga')
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('web/segitiga')
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 22:12:41 --> syntax error, unexpected '*'
+#0 C:\xampp\htdocs\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\project1\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\project1\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-29 22:13:38 --> Undefined variable: angka1
+#0 C:\xampp\htdocs\project1\app\Views\kalkulator.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\project1\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project1\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project1\system\Common.php(1097): CodeIgniter\View\View->render('kalkulator', Array, true)
+#4 C:\xampp\htdocs\project1\app\Controllers\Web.php(55): view('kalkulator', Array)
+#5 C:\xampp\htdocs\project1\system\CodeIgniter.php(824): App\Controllers\Web->prosessegitiga()
+#6 C:\xampp\htdocs\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-29 22:28:54 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\project1\app\Controllers\Web.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\project1\system\CodeIgniter.php(824): App\Controllers\Web->prosessegitiga()
+#2 C:\xampp\htdocs\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
